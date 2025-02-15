@@ -1,6 +1,8 @@
 # Apirostream
 
-**<img src="https://i.imghippo.com/files/SELL5794oOE.png" alt="" border="0" width="200">**
+<div align="center">
+   <img src="https://github.com/stwrtrio/apirostream/blob/main/Assets/images/apirostream-logo.png" alt="" border="0" width="200">
+</div>
 
 Apirostream adalah aplikasi untuk melakukan live streaming ke YouTube dengan opsi looping video.
 
