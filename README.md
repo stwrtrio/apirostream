@@ -26,16 +26,16 @@ sesuaikan dengan OS yang anda gunakan.
 ### Instal aplikasi
 
 1. **Download Aplikasi**:
-   - Download executable aplikasi untuk platform Anda (Windows, macOS, atau Linux) dari [Releases](https://github.com/<username-anda>/loopshpere/releases).
+   - Download executable aplikasi untuk platform Anda (Windows, macOS, atau Linux) dari [Releases](https://github.com/stwrtrio/apirostream/releases).
 
 2. **Jalankan Aplikasi**:
    - Buka terminal atau command prompt.
    - Navigasikan ke folder tempat aplikasi berada.
    - Jalankan aplikasi dengan perintah:
      ```bash
-     ./loopshpere
+     ./apirostream
      ```
-   - (Untuk Windows, jalankan `loopshpere.exe`).
+   - (Untuk Windows, jalankan `apirostream.exe`).
 
 3. **Masukkan RTMP URL dan Stream Key**:
    - Aplikasi akan meminta Anda untuk memasukkan RTMP URL (default: `rtmp://a.rtmp.youtube.com/live2`). Tekan `Enter` untuk menggunakan default.
