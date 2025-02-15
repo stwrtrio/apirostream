@@ -1,6 +1,6 @@
-# LoopSphere
+# Apirostream
 
-LoopSphere adalah aplikasi untuk melakukan live streaming ke YouTube dengan opsi looping video.
+Apirostream adalah aplikasi untuk melakukan live streaming ke YouTube dengan opsi looping video.
 
 ## Fitur
 - Opsi looping video selama live streaming.

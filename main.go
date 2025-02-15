@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/stwrtrio/loopsphere/internal/ffmpeg"
-	"github.com/stwrtrio/loopsphere/internal/utils"
+	"github.com/stwrtrio/apirostream/internal/ffmpeg"
+	"github.com/stwrtrio/apirostream/internal/utils"
 )
 
 func main() {
-	fmt.Println("LoopSphere: Aplikasi Live Streaming dengan Looping Video")
+	fmt.Println("Apirostream: Aplikasi Live Streaming dengan Looping Video")
 
 	// Input RTMP URL (dengan default value)
 	var rtmpURL string
