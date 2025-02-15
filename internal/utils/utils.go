@@ -2,16 +2,23 @@ package utils
 
 import (
 	"fmt"
-	"path/filepath"
-	"strings"
 )
 
-func ValidateFileFormat(filePath string, allowedFormats []string) error {
-	ext := strings.ToLower(filepath.Ext(filePath))
-	for _, format := range allowedFormats {
-		if ext == format {
-			return nil
-		}
+// Menampilkan pilihan dan meminta input dari user
+func SelectOption(prompt string, options []string) string {
+	fmt.Println(prompt)
+	for i, option := range options {
+		fmt.Printf("%d. %s\n", i+1, option)
 	}
-	return fmt.Errorf("format file tidak didukung. Gunakan file dengan format: %v", allowedFormats)
+
+	var choice int
+	fmt.Print("Pilih nomor: ")
+	fmt.Scanln(&choice)
+
+	if choice < 1 || choice > len(options) {
+		fmt.Println("Pilihan tidak valid. Menggunakan default.")
+		return options[0] // Default: pilihan pertama
+	}
+
+	return options[choice-1]
 }
