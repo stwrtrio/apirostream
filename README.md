@@ -6,9 +6,6 @@
 <br>
 <br>
 
-
-
-
 Apirostream adalah aplikasi untuk melakukan live streaming ke YouTube dengan opsi looping video.
 
 ## Fitur
@@ -18,6 +15,16 @@ Apirostream adalah aplikasi untuk melakukan live streaming ke YouTube dengan ops
 - Pilihan preset encoding untuk mengoptimalkan performa.
 
 ## Cara Penggunaan
+
+### Instal Dependensi ffmpeg
+Aplikasi ini memerlukan `ffmpeg` untuk melakukan streaming. Pastikan `ffmpeg` sudah terinstall di sistem Anda.
+
+#### Panduan instalasi ffmpeg
+Anda bisa mengikuti panduan instalasi pada website berikut: [https://www.hostinger.com/tutorials/how-to-install-ffmpeg](https://www.hostinger.com/tutorials/how-to-install-ffmpeg).<br>
+sesuaikan dengan OS yang anda gunakan.
+
+### Instal aplikasi
+
 1. **Download Aplikasi**:
    - Download executable aplikasi untuk platform Anda (Windows, macOS, atau Linux) dari [Releases](https://github.com/<username-anda>/loopshpere/releases).
 
