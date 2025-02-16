@@ -53,11 +53,16 @@ sesuaikan dengan OS yang anda gunakan.
    - **FPS**: Pilih FPS dari opsi yang tersedia (`24`, `30`, `60`). Tekan `Enter` untuk menggunakan default (`60`).
    - **Bitrate**: Masukkan bitrate (misalnya, `2000k`). Tekan `Enter` untuk menggunakan default (`2000k`).
 
-7. **Mulai Streaming**:
-   - Aplikasi akan memulai streaming ke YouTube dengan opsi looping video jika dipilih.
+7. **Pilih Opsi Timer**:
+   - Pilih apakah timer akan diaktifkan (`Ya` atau `Tidak`).
+   - Jika timer diaktifkan, masukkan durasi streaming dalam menit.
 
-8. **Stop Streaming**:
-   - Untuk saat ini, streaming bisa dihentikan secara manual dengan menekan `Ctrl+C`. Next update akan ada fitur dimana user bisa menentukan durasi streaming.
+8. **Mulai Streaming**:
+   - Aplikasi akan memulai streaming ke YouTube dengan opsi looping video jika dipilih.
+   - Jika timer diaktifkan, streaming akan berhenti secara otomatis setelah durasi yang ditentukan.
+
+9. **Stop Streaming**:
+    - Jika timer tidak diaktifkan, streaming bisa dihentikan secara manual dengan menekan `Ctrl+C`.
 
 ## Dependensi
 - Golang
