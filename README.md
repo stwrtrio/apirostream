@@ -6,7 +6,7 @@
 <br>
 <br>
 
-Apirostream adalah aplikasi untuk melakukan live streaming ke YouTube dengan opsi looping video.
+Apirostream adalah aplikasi live streaming yang memungkinkan pengguna melakukan streaming ke YouTube dengan fitur looping video, konfigurasi bitrate, resolusi, dan FPS, serta dukungan untuk platform Windows, macOS, dan Linux.
 
 ## Fitur
 - Opsi looping video selama live streaming.
