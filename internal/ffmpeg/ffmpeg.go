@@ -55,3 +55,16 @@ func StartStreaming(inputFile, rtmpURL string, loopVideo bool, preset, resolutio
 
 	return cmd, nil
 }
+
+func StopStreaming(cmd *exec.Cmd) error {
+	if cmd == nil || cmd.Process == nil {
+		return fmt.Errorf("tidak ada proses streaming yang berjalan")
+	}
+
+	err := cmd.Process.Kill()
+	if err != nil {
+		return fmt.Errorf("gagal menghentikan streaming: %v", err)
+	}
+
+	return nil
+}
