@@ -71,5 +71,3 @@ sesuaikan dengan OS yang anda gunakan.
 ## Kontribusi
 Silakan buat issue atau pull request jika Anda ingin berkontribusi.
 
-## Lisensi
-Proyek ini dilisensikan di bawah [MIT License](LICENSE).
